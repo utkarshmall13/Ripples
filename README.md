@@ -1,1 +1,0 @@
-# Ripples In SpaceTime
