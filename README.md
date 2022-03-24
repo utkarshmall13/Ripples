@@ -35,7 +35,7 @@ The EuroSat Landcover Classification datasets can be downloaded from their downl
 
 We present 2 datasets:
 
-- The spatiotemporal RGB images from sentinel-2 for the city of **Cairo**. [[Google Drive]](https://drive.google.com). This data is larger in size **[7.4 GB]**
+- The spatiotemporal RGB images from sentinel-2 for the city of **Cairo**. [[Google Drive]](https://drive.google.com/file/d/1OKCcgO-q26B0xsk2ulPTlEx2KTPL9C0y/view?usp=sharing). This data is larger in size **[7.4 GB]**
 - Temporal slices of **Change Events** from the city of Cairo. [[Google Drive]](https://drive.google.com/file/d/1R2UceJyJ0_iIQxXRmGIYqr0XKx4w79QV/view?usp=sharing)**[205 MB]**
 - This is not needed to download if you are using pre-trained models.
 
