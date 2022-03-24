@@ -25,21 +25,25 @@ If you do not wish to retrain these models or download our datasets these pre-tr
 We release 3 pre-trained models
 
  - **ripplemodel_ours**: Our self-supervised model trained using Change Events [[Google Drive]](https://drive.google.com/file/d/1qP4U6_ms4zcQctYjNcxZBaX4UDPWInBN/view?usp=sharing)
- - **ripplemodel_fulldata**: Our model trained on all images from Cairo [[Google Drive]](https://drive.google.com)
+ - **ripplemodel_fulldata**: Our model trained on all images from Cairo [[Google Drive]](https://drive.google.com/file/d/1tWGJZ-Q2JTQS4wjMpWdpYu8O8-DwgxyF/view?usp=sharing)
  - **ripplemodel_eurosat**: Our model trained on all images from EuroSat dataset [[Google Drive]](https://drive.google.com/file/d/1s-0qjGYeNJL_pFGFORCv53pIeLkIizuL/view?usp=sharing)
 
 ### Dataset
 The EuroSat Landcover Classification datasets can be downloaded from their download link.
 
-- [[Direct Download]](https://madm.dfki.de/files/sentinel/EuroSAT.zip) [[GitHub Repo]](https://github.com/phelber/eurosat) (This is **required** for evaluation.) 
+- [[Direct Download]](https://madm.dfki.de/files/sentinel/EuroSAT.zip) [[GitHub Repo]](https://github.com/phelber/eurosat) (This is **required** for evaluation.) **[90 MB]**
 
 We present 2 datasets:
 
-- The spatiotemporal RGB images from sentinel-2 for the city of **Cairo**. [[Google Drive]](https://drive.google.com)
-- Temporal slices of **Change Events** from the city of Cairo. [[Google Drive]](https://drive.google.com/file/d/1R2UceJyJ0_iIQxXRmGIYqr0XKx4w79QV/view?usp=sharing)
+- The spatiotemporal RGB images from sentinel-2 for the city of **Cairo**. [[Google Drive]](https://drive.google.com). This data is larger in size **[7.4 GB]**
+- Temporal slices of **Change Events** from the city of Cairo. [[Google Drive]](https://drive.google.com/file/d/1R2UceJyJ0_iIQxXRmGIYqr0XKx4w79QV/view?usp=sharing)**[205 MB]**
 - This is not needed to download if you are using pre-trained models.
 
 Extract these datasets in the main directory. If not, **remember** to provide paths to these to in the arguments. 
+
+Link for directory with all datasets and models: [[Google Drive]](https://drive.google.com/drive/folders/1SXZ1fKq-4l6sAKpmIY8Qp9oJ7TxTxVPd?usp=sharing)
+
+- It also contains all features extracted on EuroSat from all the models.
 
 ---
 ## Using the Code
