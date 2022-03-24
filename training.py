@@ -25,7 +25,7 @@ args = parser.parse_args()
 ################################################################################
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = Model().to(device)
-simclr_criterion = NTXentLoss('cuda', args.batch_size, 0.07, True)
+simclr_criterion = NTXentLoss(device, args.batch_size, 0.07, True)
 optimizer = optim.SGD(model.parameters(), lr=args.learning_rate, momentum=0.9)
 exp_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 
