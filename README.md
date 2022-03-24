@@ -24,9 +24,9 @@ If you do not wish to retrain these models or download our datasets these pre-tr
 
 We release 3 pre-trained models
 
- - **ripplemodel_ours**: Our self-supervised model trained using Change Events [[Google Drive]](https://drive.google.com)
+ - **ripplemodel_ours**: Our self-supervised model trained using Change Events [[Google Drive]](https://drive.google.com/file/d/1qP4U6_ms4zcQctYjNcxZBaX4UDPWInBN/view?usp=sharing)
  - **ripplemodel_fulldata**: Our model trained on all images from Cairo [[Google Drive]](https://drive.google.com)
- - **ripplemodel_eurosat**: Our model trained on all images from EuroSat dataset [[Google Drive]](https://drive.google.com)
+ - **ripplemodel_eurosat**: Our model trained on all images from EuroSat dataset [[Google Drive]](https://drive.google.com/file/d/1s-0qjGYeNJL_pFGFORCv53pIeLkIizuL/view?usp=sharing)
 
 ### Dataset
 The EuroSat Landcover Classification datasets can be downloaded from their download link.
@@ -36,7 +36,7 @@ The EuroSat Landcover Classification datasets can be downloaded from their downl
 We present 2 datasets:
 
 - The spatiotemporal RGB images from sentinel-2 for the city of **Cairo**. [[Google Drive]](https://drive.google.com)
-- Temporal slices of **Change Events** from the city of Cairo. [[Google Drive]](https://drive.google.com)
+- Temporal slices of **Change Events** from the city of Cairo. [[Google Drive]](https://drive.google.com/file/d/1R2UceJyJ0_iIQxXRmGIYqr0XKx4w79QV/view?usp=sharing)
 - This is not needed to download if you are using pre-trained models.
 
 Extract these datasets in the main directory. If not, **remember** to provide paths to these to in the arguments. 
