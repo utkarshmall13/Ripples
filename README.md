@@ -72,3 +72,12 @@ python3 infer_eurosat.py -ed PATH/TO/EUROSAT -mt eurosat # other arguments for -
 #### Evaluation
 For evaluation and visualization we release a jupyter notebook `evaluation_and_visualzation.ipynb`. 
 Look at notebook to see how use the features from the previous step to perform evaluation.
+
+This table shows the performance of different models in terms of cluster purity evaluated using the notebook.
+
+| Method | Average Purity (k=40) | 
+| --- | --- | 
+|EuroSat| 0.518 |
+|Fulldata| 0.533 |
+|ImageNet| 0.421 |
+|Ours (Change Event Training)| 0.542 |
